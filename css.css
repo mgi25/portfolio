@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+
+
+#about {
+    background-color: #3D0000;
+}
+
+#portfolio {
+    background-color: #950101;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.gallery .item {
+    width: 45%;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery .item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer #contact {
+    margin-bottom: 1rem;
+}
+
